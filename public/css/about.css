@@ -1,0 +1,149 @@
+
+
+/* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+.team_area {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    }
+
+    /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team {
+    margin-bottom: 20px;
+    }
+
+    /* line 6, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_thumb {
+    overflow: hidden;
+    margin-bottom: 26px;
+    }
+
+    /* line 9, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_thumb img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    }
+
+    /* line 16, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_info h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #2C2C2C;
+    margin-bottom: 0;
+    }
+
+    /* line 22, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_info p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #2C2C2C;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    }
+
+    /* line 30, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_info .social_link li {
+    display: inline-block;
+    }
+
+    /* line 32, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_info .social_link li a {
+    font-size: 15px;
+    color: #C7C7C7;
+    margin: 0 5px;
+    }
+
+    /* line 36, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team .team_info .social_link li a:hover {
+    color: #FFD35A;
+    }
+
+    /* line 45, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_team.scss */
+    .team_area .single_team:hover .team_thumb img {
+    width: 100%;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    }
+
+    /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    }
+
+    /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap {
+    margin-bottom: 30px;
+    }
+
+    /* line 6, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap h3 {
+    font-size: 46px;
+    font-weight: 300;
+    color: #001D38;
+    margin-bottom: 51px;
+    }
+
+    @media (max-width: 767px) {
+    /* line 6, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap h3 {
+        font-size: 38px;
+    }
+    }
+
+    /* line 16, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap form input, .contact_form_quote .form_wrap form textarea {
+    height: 36px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    }
+
+    /* line 24, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap form input::placeholder, .contact_form_quote .form_wrap form textarea::placeholder {
+    color: #727272;
+    font-weight: 300;
+    font-size: 15px;
+    }
+
+    /* line 30, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap form textarea {
+    height: 40px !important;
+    resize: none;
+    margin-top: 70px;
+    }
+
+    /* line 35, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .form_wrap form button {
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    }
+
+    /* line 42, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .contact_thumb {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    /* line 45, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact_quote.scss */
+    .contact_form_quote .contact_thumb img {
+    width: 100%;
+    }
