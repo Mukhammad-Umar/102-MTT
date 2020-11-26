@@ -29,7 +29,7 @@
                         <hr>
                     @endforeach
                     <div class="col-12 link-to">
-                        <p> Kop`roq yangiliklar uchun<a href="https://mdo.uz/uz" target="_blank"> Vazirlik saytiga o`ting <span>-></span></a></p>
+                        <p> Kop`roq yangiliklar uchun<a href="http://mdo.uz/" target="_blank"> Vazirlik saytiga o`ting <span>-></span></a></p>
                     </div>
             </div>
         </section>

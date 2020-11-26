@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'admin',
                 'role' => 'admin',
                 'email' => 'admin@gmail.com',
-                'password' => bcrypt('12345678'),
+                'password' => bcrypt('umary803'),
                 'remember_token' => str_random(10),
             ]
         );
@@ -34,16 +34,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'king',
                 'role' => 'redac',
                 'email' => 'king@gmail.com',
-                'password' => bcrypt('12345678'),
-                'remember_token' => str_random(10),
-            ]
-        );
-        User::create(
-            [
-                'name' => 'omar',
-                'role' => 'user',
-                'email' => 'omar@gmail.com',
-                'password' => bcrypt('12345678'),
+                'password' => bcrypt('123qwert'),
                 'remember_token' => str_random(10),
             ]
         );
